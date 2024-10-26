@@ -31,12 +31,10 @@ set_window_value(AT_JAB, 3, AG_WINDOW_CANCEL_FRAME, 1);
 
 
 
-
-
 //jab 2
 //startup
 set_window_value(AT_JAB, 4, AG_WINDOW_TYPE, 1);
-set_window_value(AT_JAB, 4, AG_WINDOW_LENGTH, 5);
+set_window_value(AT_JAB, 4, AG_WINDOW_LENGTH, 4);
 set_window_value(AT_JAB, 4, AG_WINDOW_ANIM_FRAME_START, 4);
 set_window_value(AT_JAB, 4, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_JAB, 4, AG_WINDOW_HAS_SFX, 1);
@@ -53,17 +51,19 @@ set_window_value(AT_JAB, 5, AG_WINDOW_ANIM_FRAMES, 2);
 
 //recovery
 set_window_value(AT_JAB, 6, AG_WINDOW_TYPE, 1);
-set_window_value(AT_JAB, 6, AG_WINDOW_LENGTH, 7);
+set_window_value(AT_JAB, 6, AG_WINDOW_LENGTH, 5);
 set_window_value(AT_JAB, 6, AG_WINDOW_ANIM_FRAME_START, 6);
 set_window_value(AT_JAB, 6, AG_WINDOW_ANIM_FRAMES, 2);
 set_window_value(AT_JAB, 6, AG_WINDOW_CANCEL_TYPE, 1);
-set_window_value(AT_JAB, 6, AG_WINDOW_CANCEL_FRAME, 2);
+set_window_value(AT_JAB, 6, AG_WINDOW_CANCEL_FRAME, 1);
 set_window_value(AT_JAB, 6, AG_WINDOW_HAS_WHIFFLAG, 1);
+
+
 
 //jab 3
 //startup
 set_window_value(AT_JAB, 7, AG_WINDOW_TYPE, 1);
-set_window_value(AT_JAB, 7, AG_WINDOW_LENGTH, 5);
+set_window_value(AT_JAB, 7, AG_WINDOW_LENGTH, 2);
 set_window_value(AT_JAB, 7, AG_WINDOW_ANIM_FRAME_START, 9);
 set_window_value(AT_JAB, 7, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_JAB, 7, AG_WINDOW_HAS_SFX, 1);
@@ -100,7 +100,7 @@ set_hitbox_value(AT_JAB, 1, HG_HEIGHT, 37);
 set_hitbox_value(AT_JAB, 1, HG_PRIORITY, 1);
 set_hitbox_value(AT_JAB, 1, HG_DAMAGE, 3);
 set_hitbox_value(AT_JAB, 1, HG_ANGLE, 0);
-set_hitbox_value(AT_JAB, 1, HG_BASE_KNOCKBACK, 3);
+set_hitbox_value(AT_JAB, 1, HG_BASE_KNOCKBACK, 4);
 set_hitbox_value(AT_JAB, 1, HG_BASE_HITPAUSE, 4);
 set_hitbox_value(AT_JAB, 1, HG_HIT_SFX, asset_get("sfx_blow_weak1"));
 
